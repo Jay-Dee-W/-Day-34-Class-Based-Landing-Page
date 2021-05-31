@@ -1,0 +1,65 @@
+.Form-container{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form {
+    color : white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-radius: 1em;
+    background: var(--primary);
+}
+
+.Main-Headline, .Secondary-Headline ,.Subtext,.Button-Text ,.Date-Time {
+    padding: 4%;
+    width: 100%;
+}
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.radio {
+ width: 10px;
+ height: 5rem;
+ margin: .5em;
+}
+
+img {
+    width : 5em;
+    height: 5em;
+    border-radius: .5em;
+
+
+}
+.background-picker {
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+    
+}
+
+.bg1,.bg2 {
+    width: 5%;
+}
+button {
+    background: white;
+    color: var(--primary);
+    padding: 1em;
+    
+}
+
+.error {
+    font-size: small;
+    color: red;
+}

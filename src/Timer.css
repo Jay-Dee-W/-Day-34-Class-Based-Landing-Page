@@ -1,0 +1,45 @@
+.timer-container{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .container {
+    color : white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% ;
+   
+    background: rgba(112, 114, 112, 0.3);
+  }
+  .H1, .H2, .H3 {
+  
+    width: 100%;
+    margin: 15%
+  }
+  .Timer {
+    display: flex;
+    gap: 3%;
+    padding: 2%;
+  }
+  
+  .Days, .Hours, .Minutes, .Seconds {
+    border: 3px solid white;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .btn{
+    background-color: red;
+    border: none;
+    border-radius: .5em;
+    color: white;
+  }
